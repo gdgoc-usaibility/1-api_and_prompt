@@ -10,15 +10,15 @@
 ### 예시
 
 ```bash
-git clone git@github.com:HateSlop/2-prompt-engineering.git  # 클론
-cd 2-prompt-engineering # 프로젝트 루트로 이동
-git checkout -b Hyeonseong # 브랜치 생성 (본인의 브랜치, 폴더 등 생성)
-mkdir Hyeonseong # 개인 폴더 만들기
-cd Hyeonseong # 개인 폴더로 이동
+git clone git@github.com:gdgoc-usaibility/1-prompt.git  # 클론
+cd 1-prompt # 프로젝트 루트로 이동
+git checkout -b olavvn # 브랜치 생성 (본인의 브랜치, 폴더 등 생성)
+mkdir olavvn # 개인 폴더 만들기
+cd olavvn # 개인 폴더로 이동
 # 작업을 진행해주세요
 git add . # 작업 후 add
 git commit -m "[feat] ~~" # 커밋
-git push origin Hyeonseong # 오리진에 푸시
+git push origin olavvn # 오리진에 푸시
 ```
 
 ### 폴더구조
@@ -28,8 +28,8 @@ git push origin Hyeonseong # 오리진에 푸시
 ├── .gitignore                # 가상환경 등 불필요한 파일 무시 설정
 ├── README.md                 # 프로젝트 설명 리드미 파일
 ├── 실습_코드.ipynb          # 프롬프트 엔지니어링 실습용 주피터 노트북
-└── bmk/                  # 개인 작업 폴더
-    └── test.ipynb  # 개인 Python 코드 파일
+└── olavvn/                  # 개인 작업 폴더
+    └── prompt-practice.ipynb  # 개인 Python 코드 파일
 
 ```
 
