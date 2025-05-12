@@ -26,7 +26,6 @@ git push origin [본인브랜치명] # 오리진에 푸시
 
 ```bash
 .
-├── .gitignore                # 가상환경 등 불필요한 파일 무시 설정
 ├── README.md                 # 프로젝트 설명 리드미 파일(수정X)
 ├── api_and_prompt.ipynb      # 프롬프트 엔지니어링 실습용 주피터 노트북
 └── [본인폴더명]/               # 개인 작업 폴더
