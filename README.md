@@ -27,10 +27,13 @@ git push origin [본인브랜치명] # 오리진에 푸시
 ```bash
 .
 ├── .gitignore                # 가상환경 등 불필요한 파일 무시 설정
-├── README.md                 # 프로젝트 설명 리드미 파일
-├── api_and_prompt.ipynb          # 프롬프트 엔지니어링 실습용 주피터 노트북
-└── [본인폴더명]/                  # 개인 작업 폴더
+├── README.md                 # 프로젝트 설명 리드미 파일(수정X)
+├── api_and_prompt.ipynb      # 프롬프트 엔지니어링 실습용 주피터 노트북
+└── [본인폴더명]/               # 개인 작업 폴더
     └── api_and_prompt.ipynb  # 개인 Python 코드 파일
+    └── .gitignore            # 가상환경 등 불필요한 파일 무시 설정
+    └── requirements.txt      # 프로그램 구현을 위해 필요한 패키지 정보 
+
 
 ```
 
